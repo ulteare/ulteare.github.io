@@ -1,37 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- metadata -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Jonte Lee - Aesthetic Autobiography</title>
+    <title>Jonte Lee</title>
+
+    <!-- css stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/index.css">
+
+
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#clubs">Clubs</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="about">
-        <div class="container">
-            <img src="profile-pic.jpg" alt="Jonte Lee">
-            <h1>Hello, I'm Jonte Lee !!!</h1>
-            <p>I'm a year 2 Information Systems and Business student who is passionate about design, tech, and finance. I thrive on adventure and love embracing new opportunities and challenges, whether they're intellectual or physical. Meeting people with diverse perspectives brings me joy.</p>
+
+    <!-- navigation bar -->
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <a class="navbar-brand fs-1 ms-3" href="#">Jonte Lee</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-3">
+            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+            <a class="nav-link" href="#">Education</a>
+            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
         </div>
-    </section>
-    
-    <section id="clubs">
-        <div class="container">
-            <h2>Clubs I'm in</h2>
-            <ul>
-                <li>Sports: Ultimate Frisbee, Athletics</li>
-                <li>Academic: Business Intelligence Analytics, Fintech</li>
-            </ul>
         </div>
-    </section>
+    </nav> -->
+    
+    <!-- cards -->
+    <!-- <div class="row p-5">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card d-inline-flex" style="width: 18rem;">
+                <img src="images/kingcard.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>  
+
+        <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card d-inline-flex" style="width: 18rem;">
+                <img src="images/queencard.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>  
+
+        <div class="col-md-6 col-lg-4 col-xl-3">
+            
+    </div> -->
+
+
+    <!-- spacing row -->
+    <div class="spacerow p-5">
+        <div class="fw-light h1 row justify-content-center">
+            Pick a Card.
+        </div>
+    </div>
+
+    <!-- cards! -->
+    <div class="cardrow row">
+
+        <div class="container">
+            <div class="card">
+            <div class="front">
+                <img src="images/myface.JPG" alt="">
+            </div>
+            <div class="back">
+                <h3>about me!</h3>
+            </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+            <div class="front">
+                <img src="images/kingcard.jpeg" alt="">
+            </div>
+            <div class="back">
+                <h3>education.</h3>
+            </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+            <div class="front">
+                <img src="images/queencard.jpeg" alt="">
+            </div>
+            <div class="back">
+                <h3>extracurriculars.</h3>
+            </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+            <div class="front">
+                <img src="images/jackcard.jpeg" alt="">
+            </div>
+            <div class="back">
+                <h3>projects.</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
