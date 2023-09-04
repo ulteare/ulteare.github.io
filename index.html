@@ -16,52 +16,6 @@
 </head>
 <body>
 
-    <!-- navigation bar -->
-    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-        <a class="navbar-brand fs-1 ms-3" href="#">Jonte Lee</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-3">
-            <a class="nav-link active" aria-current="page" href="#">About Me</a>
-            <a class="nav-link" href="#">Education</a>
-            <a class="nav-link" href="#">Projects</a>
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </div>
-        </div>
-        </div>
-    </nav> -->
-    
-    <!-- cards -->
-    <!-- <div class="row p-5">
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <div class="card d-inline-flex" style="width: 18rem;">
-                <img src="images/kingcard.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>  
-
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <div class="card d-inline-flex" style="width: 18rem;">
-                <img src="images/queencard.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>  
-
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            
-    </div> -->
-
 
     <!-- spacing row -->
     <div class="spacerow p-5">
@@ -73,50 +27,75 @@
     <!-- cards! -->
     <div class="cardrow row">
 
-        <div class="container">
-            <div class="card">
-            <div class="front">
-                <img src="images/myface.JPG" alt="">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="container">
+                <div class="card">
+                <div class="front">
+                    <img src="images/myface.JPG" alt="">
+                </div>
+                <div class="back">
+                    <a class="nav-link" href="#aboutme">about me!</a>
+                </div>
+                </div>
             </div>
-            <div class="back">
-                <h3>about me!</h3>
-            </div>
+        </div>  
+
+        <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="container">
+                <div class="card">
+                <div class="front">
+                    <img src="images/kingcard.jpeg" alt="">
+                </div>
+                <div class="back">
+                    <h3>education.</h3>
+                </div>
+                </div>
             </div>
         </div>
 
-        <div class="container">
-            <div class="card">
-            <div class="front">
-                <img src="images/kingcard.jpeg" alt="">
-            </div>
-            <div class="back">
-                <h3>education.</h3>
-            </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="card">
-            <div class="front">
-                <img src="images/queencard.jpeg" alt="">
-            </div>
-            <div class="back">
-                <h3>extracurriculars.</h3>
-            </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="container">
+                <div class="card">
+                <div class="front">
+                    <img src="images/queencard.jpeg" alt="">
+                </div>
+                <div class="back">
+                    <h3>extracurriculars.</h3>
+                </div>
+                </div>
             </div>
         </div>
 
-        <div class="container">
-            <div class="card">
-            <div class="front">
-                <img src="images/jackcard.jpeg" alt="">
-            </div>
-            <div class="back">
-                <h3>projects.</h3>
-            </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="container">
+                <div class="card">
+                <div class="front">
+                    <img src="images/jackcard.jpeg" alt="">
+                </div>
+                <div class="back">
+                    <h3>projects.</h3>
+                </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- testing can delete -->
+    <div class="row">
+        <div class="spacerow p-5">
+        </div>
+
+        <div class="spacerow p-5">
+        </div>
+
+        <div class="spacerow p-5" id="aboutme">
+            <div class="fw-light h1 row justify-content-center">
+                Pick a Card.
+                <img src="images/jackcard.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
 
 </body>
 </html>
