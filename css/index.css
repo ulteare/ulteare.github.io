@@ -10,6 +10,7 @@ body {
     height: 180px;
 }
 
+
 /* CARDS css */
 .cardrow {
     display: flex;
@@ -66,4 +67,10 @@ body {
     align-items: center;
     gap: 5rem;
     padding: 20px;
+}
+
+/* carousel */
+.carousel-inner{
+    max-height: 600px;
+    height: 100%;
 }
