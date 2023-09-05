@@ -58,6 +58,7 @@ body {
 
 .cardback {
     background-color: whitesmoke;
+    color: #040404;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
